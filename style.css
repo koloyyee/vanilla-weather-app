@@ -1,0 +1,199 @@
+html {
+    height:100%;
+    width:100%;
+    padding:0;
+}
+
+
+* {
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0vw 10vw 0vw 10vw;
+    position: relative;
+    max-height: 50vh;
+}
+
+input {
+    color:black;
+    text-shadow: 0 0 1px white;
+}
+
+.time-date {
+    
+    font-size:1.2em;
+    
+}
+
+.current-time {
+    font-size: 3em;
+    padding: 20px;
+
+}
+
+.weather-detail{
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    position:absolute;
+    bottom:-90%;
+
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    height: 15vh;
+    width:100%;
+
+} 
+
+
+.weather-description{
+  
+    font-size: 1rem;
+}
+
+
+.weather-report{
+    display:flex; 
+    align-items: center;
+    padding-right: auto;
+
+}
+
+.main {
+    display:flex;
+    justify-content:space-between;
+}
+
+.geo{
+    display:flex;
+    flex-direction: column;
+}
+.current-temp {
+    font-size: 10rem;
+    margin: 0;
+}
+
+.city{
+     font-size: 3rem;
+     padding-top: 5.5em;
+     margin:0px;
+}
+
+.weather-report  p {
+
+    margin:0px auto;
+}
+.weather-report label {
+    font-size: 0.8rem;
+}
+
+
+ul{
+ list-style: none;
+}
+li {
+    padding: 1.2rem;
+}
+
+.city-search {
+    font-size: 1rem;
+    
+}
+button {
+    color: grey;
+    text-shadow: none;
+    box-shadow:0px 0px 8px grey; 
+    
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    *{
+        font-size: 1rem;
+        max-height: 100%;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .current-temp {
+        font-size: 8rem;
+        margin: 0;
+    }
+
+    .weather-detail {
+        height:10vh;
+        bottom: -75%;
+    }
+    .weather-report {
+        font-size: 0.3rem;
+        justify-self: flex-start;
+
+    } 
+    .city-search > label {
+        padding-right: 2px;
+        font-size: 0.6rem;
+    }
+    .city-search > button {
+        font-size: 0.5rem;
+    }
+    input {
+
+        width: 15vw;
+        height: 1vh;
+    }
+    input > button {
+        height: 1.5vh;
+        margin: 0;
+    }
+
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    *{
+        font-size: 1.3rem;
+    }
+
+    .current-temp {
+        font-size: 10rem;
+        margin: 0;
+    }
+
+    .weather-detail {
+        height:10vh;
+    }
+    .weather-report {
+        font-size: 1rem;
+        justify-self: flex-start;
+
+    } 
+    .city-search > label {
+        padding-right: 2px;
+        font-size: 1rem;
+    }
+    .city-search > button {
+        font-size: 1rem;
+    }
+    input {
+
+        width: 20vw;
+        height: 1vh;
+    }
+    input > button {
+        height: 1.5vh;
+        padding:1px;
+    }
+
+
+}

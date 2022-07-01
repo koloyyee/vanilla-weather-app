@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Sky</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>Vanilla Sky</h1>
+
+
+
+
+    <!-- weather report for client's city -->
+    <div class="main">
+        <div>
+            <p class="current-temp"></p>
+            <img class="current-city-weather-icon">
+            <p class="weather-description"></p>
+            <div class="time-date">
+                <!-- <p class="current-time"></p> -->
+                <p class="current-date"></p>
+            </div>
+
+        </div>
+        <p class="geo">
+            <span class="city"></span>
+            <span class="country"></span>
+        </p>
+
+    </div>
+
+    <footer class="weather-detail">
+        <ul class="weather-report">
+            <li name="feels-like">
+                <p class="current-feels-like"></p>
+                <label for="feels-like">Feels Like</label>
+            </li>
+
+            <li>
+                <p class="current-humidity"></p>
+                <label for="humidity">Humidity</label>
+            </li>
+
+        </ul>
+
+
+        <!-- input to search client's own city -->
+        <form action="" method="get" class="city-search">
+            <label> Find my city</label>
+            <br>
+            <input type="text" name="city">
+            <br>
+            <button type="submit">find</button>
+        </form>
+        <footer>
+
+</body>
+<script src="index.js" type="module"></script>
+
+</html>
