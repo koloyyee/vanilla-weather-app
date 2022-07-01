@@ -19,4 +19,4 @@ This is part of the practice projects on how to use the FetchAPI, and to update 
 
 If you want to see the background changes on your machine, please create your own Unsplash API keys and Rapid API Key.
 
-![Weather App Demo]("https://media.giphy.com/media/NdAwVhoKSE2HErNyzk/giphy.gif")
+![Weather App Demo](https://media.giphy.com/media/NdAwVhoKSE2HErNyzk/giphy.gif)
