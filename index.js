@@ -1,5 +1,8 @@
 import { AccessKey, RapidAPIKey } from "./env.js";
 
+// AccessKey is the Unsplash Access Key
+// RapidAPIKey is the Rapid API Key.
+
 async function weatherApi(city) {
   const url = `https://weatherapi-com.p.rapidapi.com/current.json?q=${city}`;
   const options = {
@@ -94,6 +97,7 @@ async function unsplashPhotosBackgroundImage(
   document.body.style.backgroundImage = `url(${imageUrl})`;
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
+  document.body.style.transition = "background-image 1s";
 }
 
 function clock() {
