@@ -51,8 +51,6 @@ async function updateWeather(city = "hong kong") {
   detailReport(feelslike_c, humidity, temp_c, condition["text"]);
   unsplashPhotosBackgroundImage(condition["text"], "regular");
   date();
-
-  console.log(weatherData);
 }
 
 updateWeather();
@@ -82,8 +80,6 @@ async function unsplashPhotosBackgroundImage(
   const url = `https://api.unsplash.com/search/photos?query=${
     keyword + " weather"
   }&orientation=landscape&client_id=${AccessKey}`;
-
-  console.log(url);
 
   const resp = await fetch(url);
   // payload return unsplash json data, inside results it has an array with 10 objects.
