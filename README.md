@@ -2,6 +2,9 @@
 
 This is part of the practice projects on how to use the FetchAPI, and to update the DOM without refreshing.
 
+## Live Demo:
+<https://dainty-valkyrie-b559e0.netlify.app/>
+
 ## APIs
 
 1. Weather - WeatherAPI from raphid [x]
